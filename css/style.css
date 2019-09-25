@@ -1,0 +1,21 @@
+.menu__item
+{
+    display:inline-block
+}
+.menu__item:hover {
+    background-color: green
+}
+ .menu {
+     display:flex;
+     justify-content: center;
+ }
+.menu__item {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    border: 1px solid black;
+    justify-content:center;
+    margin: -2px;
+    padding: 10px;
+    border-radius: 2em 0.7em/14em 0.7em;
+}
